@@ -299,7 +299,18 @@ h1 {
     .top-right {
     
         
-	font-size: 80%;
+	font-size: 130%;
+	top: 75%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 720px) {
+    .top-right {
+    
+        
+	font-size: 130%;
 	top: 75%;
     
     }
