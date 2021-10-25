@@ -175,8 +175,8 @@ a:active {
     
 	
         width: 100%;
-	padding: 0em;
-   	margin-top: 1em;
+	    padding: 0em;
+   	    margin-top: 1em;
     
     }
         
@@ -187,7 +187,7 @@ a:active {
     
 	
        
-	width: 100%;
+	    width: 100%;
    	
     
     }
@@ -205,3 +205,15 @@ a:active {
     }
         
 } 
+
+@media only screen and (max-width: 360px) {
+    #keskus {
+    
+	
+       
+	    width: 100%;
+   	
+    
+    }
+        
+}
