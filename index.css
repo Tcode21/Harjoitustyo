@@ -295,21 +295,13 @@ h1 {
     
 }
 
-@media only screen and (max-width: 360px) {
-    .top-right {
-         
-	    font-size: 100%;
-	    top: 75%;
-    
-    }
-        
-}
 
-@media only screen and (max-width: 412x) {
-    .top-right {
+
+@media only screen and (max-width: 412px) {
+    .container #box2ght {
         
         font-size: 90%;
-	    top: 75%;
+	    top: 50%;
     
     }
         
