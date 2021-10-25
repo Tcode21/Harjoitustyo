@@ -15,7 +15,7 @@ Sivusto testattu seuraavilla laitteilla, käyttöjärjestelmillä ja selaimilla:
 
     Kannettava tietokone: HP, 
     Linux Mint 13, 
-    Mozilla Firefox verio 52
+    Mozilla Firefox versio 52
 
     Pöytätietokone:
     Windows 10 Home,
