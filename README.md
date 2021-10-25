@@ -29,4 +29,4 @@ Puhelin: Samsung Galaxy J5
 
 4. Mitä vaikeuksia kohtasit ja miten niistä selvisit?
 Sivujen leveyksien, härpäkkeiden kohdistaminen ja niiden näkyminen kaikilla laitteilla kohotti verenpainetta kiitettävästi.
-Jotenkin onnistuin leipomaan ne kohdilleen.
+Jotenkin onnistuin leipomaan ne kohdilleen. 
