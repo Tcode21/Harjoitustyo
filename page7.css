@@ -141,6 +141,17 @@ input:invalid {
         
 }
 
+@media only screen and (max-width: 360px) {
+    form {
+    
+        width: 100%;
+    
+    }
+        
+}
+
+
+
 @media only screen and (max-width: 375px) {
     #tiedot {
     
