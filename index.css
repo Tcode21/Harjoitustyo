@@ -299,7 +299,7 @@ h1 {
     .top-right {
     
         
-	font-size: 130%;
+	font-size: 100%;
 	top: 75%;
     
     }
@@ -309,7 +309,7 @@ h1 {
 @media only screen and (max-width: 720px) {
     .top-right {
     
-    position: absolute;   
+      
 	font-size: 100%;
 	
     
