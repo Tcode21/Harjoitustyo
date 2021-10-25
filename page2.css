@@ -1,0 +1,142 @@
+
+#linkit {
+
+  text-align: center;
+  background-color: lightskyblue;  
+  box-shadow: 0.2em 0.1em;
+  margin: 0 auto;
+  width: 40%;
+  margin-top: 2em;
+  
+}
+
+body {
+
+  margin: 0 auto;
+  background-color: rgb(230, 250, 248);
+
+}
+
+table {
+  
+  margin: 0 auto;
+  width: 82%;
+
+}
+
+table, th, td {
+    
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1em;
+  margin-top: 7em;
+  margin-left: 8em;
+    
+}
+
+tr:nth-last-child(odd) {
+  background-color: lemonchiffon;
+}
+
+tr, td{
+
+  text-align: center;
+
+}
+
+
+a:visited {
+
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+a:active {
+
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+
+@media only screen and (max-width: 810px) {
+    body {
+    
+        transform:rotate(90deg);
+    
+    }
+        
+}
+
+@media only screen and (max-width: 810px) {
+    body {
+    
+        padding-left: 23em;
+	
+    
+    }
+        
+}
+
+
+@media only screen and (max-width: 375px) {
+    table, th, td {
+    
+       
+	padding: 0.2em;
+	margin-top: 3em;
+    	margin-left: 0em;
+    }
+        
+}
+
+@media only screen and (max-width: 812px) {
+    table, th, td {
+    
+       
+	padding: 0.2em;
+	margin-top: 0.5em;
+    	margin-left: 3.5em;
+    }
+        
+}
+
+@media only screen and (max-width: 812px) {
+    #linkit {
+    
+       
+	margin-top: 1em;
+	margin-bottom: 1em;
+	
+    	
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+    
+        transform:rotate(90deg);
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+    
+        padding-left: 0em;
+    
+    }
+        
+}

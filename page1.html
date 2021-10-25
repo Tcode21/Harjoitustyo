@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+
+
+  <head>
+
+    <title>Sähköjelppari</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="page1.css" rel="StyleSheet">
+
+    <script src="page1.js" defer></script>
+   
+
+  </head>
+
+  <body >
+
+    <h1 id="otsikko2">PUIMURI</h1> 
+
+    <ol>
+
+      <li id="yksiköt" >U = Jännite</li>
+      <li>I = Virta</li>
+      <li>P = Teho</li>
+
+    </ol>
+    
+    <h3 class="kaava">U = R * I</h3>
+
+    <form id="jännite">
+      <label>Jännite</label><span class="span">=</span>
+      <input id="input1" type="number"><span>*</span><input id="input2" type="number"><span class="span">= </span><span id="vastaus"></span><span id="vastaus2">V</span>
+      <button id="nappi1" onclick="soita()" type="button">Laske</button>
+    </form> 
+    
+    <h3 class="kaava">U = P / I</h3>
+    <form id="jännite2">
+      <label>Jännite</label><span class="span">=</span>
+      <input id="input7" type="number"><span>/</span><input id="input8" type="number"><span class="span">= </span><span id="vastaus7"></span><span id="vastaus8">V</span>
+      <button id="nappi4" onclick="soita()" type="button">Laske</button>
+     </form> 
+    <hr>
+
+    <h3 class="kaava">I = U / R</h3>
+
+    <form id="virta">
+
+      <label>Virta</label><span class="span">=</span>
+      <input id="input3" type="number"><span>/</span><input id="input4" type="number"><span class="span">= </span><span id="vastaus3"></span><span id="vastaus4">A</span>
+      <button id="nappi2" type="button">Laske</button>
+
+    </form> 
+    <h3 class="kaava">I = P / U</h3>
+
+    <form id="virta2">
+
+      <label>Virta</label><span class="span">=</span>
+      <input id="input9" type="number"><span>/</span><input id="input10" type="number"><span class="span">= </span><span id="vastaus9"></span><span id="vastaus10">A</span>
+      <button id="nappi5" type="button">Laske</button>
+
+    </form>
+    
+     <hr>
+    <h3 class="kaava">P = U * I</h3>
+
+    <form id="Teho">
+
+      <label>Teho</label><span class="span">=</span>
+      <input id="input5" type="number"><span>*</span><input id="input6" type="number"><span class="span">= </span><span id="vastaus5"></span><span id="vastaus6">W</span>
+      <button id="nappi3" type="button">Laske</button>
+
+    </form> 
+    <hr>
+    <h3 class="kaava">R = U / I</h3>
+
+    <form id="resistanssi">
+
+      <label>Resistanssi</label><span class="span">=</span>
+      <input id="input11" type="number"><span>/</span><input id="input12" type="number"><span class="span">= </span><span id="vastaus11"></span><span id="vastaus12">ohmia</span>
+      <button id="nappi6" type="button">Laske</button>
+
+    </form>
+
+    
+
+
+
+
+
+    
+
+    <audio id="aani2">
+
+      <source src="aani2.wav" type="audio/wav">
+         
+    </audio>
+
+  </body>
+
+</html>

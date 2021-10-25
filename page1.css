@@ -1,0 +1,205 @@
+body {
+
+    background-color: lemonchiffon;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+#otsikko2 {
+
+    text-align: center;
+    font-size: 300%;
+    color: brown;
+
+}
+
+li{
+    font-size: 150%;
+}
+
+
+
+/* ------- inputit ----------------------------------------*/
+
+#input1 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input2 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input3 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+#input4 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input5 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+#input6 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input7 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+#input8 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input9 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input10 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input11 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+#input12 {
+
+    width: 4em;
+    margin: 1em;
+
+}
+
+/*-----napit-------------------------*/
+
+#nappi {
+
+    margin: 1em;
+
+}
+#nappi2 {
+
+    margin: 1em;
+
+}
+
+#nappi3 {
+
+    margin: 1em;
+
+}
+
+#nappi4 {
+
+    margin: 1em;
+
+}
+
+#nappi5 {
+
+    margin: 1em;
+
+}
+
+#nappi6 {
+
+    margin: 1em;
+
+}
+
+
+
+/*---------------------------------------*/
+
+#span {
+
+    padding-left: 1em;
+
+}
+
+.kaava {
+
+    font-size: 150%;
+
+}
+
+@media only screen and (max-width: 375px) {
+    #otsikko2 {
+    
+        font-size: 200%;
+	
+	
+        
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    li {
+    
+        font-size: 120%;
+	
+	
+        
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+    
+        width: 100%;
+	
+	
+        
+	
+    
+    }
+        
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+body {
+
+    background-color: lightskyblue;
+
+}
+
+#tarjous {
+
+    border: 1px solid black;
+    padding: 0.5em;
+    border-collapse: collapse;
+    margin-left: 1.7em;
+
+}
+
+tr {
+
+    border: 1px solid black;
+    padding: 0.5em;
+    width: 3em;
+    
+}
+
+td {
+
+    border: 1px solid black;
+    padding: 0.5em;
+    width: 3em;
+}
+
+#otsikko {
+
+    margin-left: 1.3em;
+    margin-top: 1em;
+
+}
+
+
+
+.nimi1 {
+    margin-left: 0em;
+}
+
+.nimi2 {
+    margin-left: 0em;
+}
+
+.nimi3 {
+    margin-left: 0em;
+}
+
+.nimi4 {
+    margin-left: 0em;
+}
+
+.nimi5 {
+    margin-left: 0em;
+}
+
+.nimi6 {
+    margin-left: 0em;
+}
+
+#mieluiten {
+    margin-left: 1.8em;
+}
+
+#sähköpos {
+    margin-left: 1.8em;
+    
+}
+
+#in1 {
+    margin-right: 1em;
+}
+
+#in1 {
+    
+    padding: 1em;
+}
+
+#tiedot {
+    margin-left: 2em;
+}
+
+#kohteen {
+    margin-left: 1.7em;
+}
+
+
+
+#yhteys {
+    margin-left: 1.5em;
+}
+
+form {
+    width: 35%;
+    margin: 0 auto;
+    
+}
+
+table {
+    margin-bottom: 3em;
+}
+
+#nappi {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+input:invalid {
+
+    background-color: rgba(255, 60, 0, 0.541);
+}
+
+
+@media only screen and (max-width: 1080px) {
+    form {
+    
+        width: 40%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 810px) {
+    form {
+    
+        width: 50%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    form {
+    
+        width: 100%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    #tiedot {
+    
+        width: 90%;
+    
+    }
+        
+}

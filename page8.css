@@ -1,0 +1,26 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(250, 226, 194);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#lamppu {
+    float: right;
+    margin: 0.5em;
+}
+
+.väli {
+
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 812px) {
+    #lamppu {
+    
+        width: 250px;
+    	height: 250px;
+    
+    }
+        
+}

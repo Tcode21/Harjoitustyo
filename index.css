@@ -1,0 +1,388 @@
+h1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 300%;
+    margin: 0em;
+
+}
+
+#puh {
+    float: right;
+    margin: 0.5em;
+   
+    font-size: larger;
+}
+
+
+
+
+/*---------------CSS GRID-------------------------------------------------------*/
+
+
+
+#content {
+
+    display: grid;
+    grid-template-columns:15% 60% 25% ;
+    grid-template-rows: 15vh 70vh 15vh;
+    grid-template-areas: 
+    'box1 box1 box1'
+    'box3 box2 box2'
+    'box3 box2 box2';
+
+}
+
+#box1 {
+
+    grid-area: box1;
+    background-color: bisque;
+    text-align: center;
+
+}
+
+#box2 {
+
+    margin-top: 0em;
+    grid-area: box2;
+    background-image: url("kuva.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+
+}
+
+#box3 {
+
+    grid-area: box3;
+    background-color: cornflowerblue;   
+
+}
+
+
+
+/* ----------valikot----------------------------------------------------------*/
+
+
+
+
+#valikko1 {
+
+    padding-bottom: 0.5em;
+    margin-left: 28%;
+    padding-top: 0.5em;
+    width: 100px;
+    
+
+}
+
+#valikko2 {
+
+    padding-bottom: 0.5em;
+    margin-left: 28%;
+    padding-top: 0.5em;
+    width: 100px;
+   
+}
+
+#valikko3{
+
+    padding-top: 2em;
+    margin-left: 28%;
+    padding-bottom: 0.5em;
+    width: 100px;
+   
+}
+
+#valikko4{
+
+    padding-bottom: 0.5em;
+    margin-left: 28%;
+    padding-top: 0.5em;
+    width: 100px;
+   
+}
+
+#valikko5{
+
+    padding-bottom: 0.5em;
+    margin-left: 28%;
+    padding-top: 0.5em;
+    width: 100px;
+   
+}
+
+#valikko6{
+   
+    padding-top: 0.5em;
+    margin-left: 28%;
+    padding-bottom: 0.5em;
+    width: 100px;
+
+}
+
+#valikko7 {
+   
+    padding-top: 0.5em;
+    margin-left: 28%;
+    padding-bottom: 1em;
+    width: 100px;
+
+}
+
+#valikko8 {
+   
+    padding-top: 0.5em;
+    margin-left: 28%;
+    margin-bottom: 0.5em;
+    width: 100px;
+
+}
+
+
+
+
+/*-------------Postilaatikko---------------------------------------------------------------*/
+
+
+
+#postilaatikko {
+
+    grid-area: box3;
+    padding-left: 35%;
+  
+
+}
+
+@media screen and (max-width: 600px) {
+    #postilaatikko {
+    
+        display: none;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 1080px) {
+    #postilaatikko {
+    
+        padding-left: 33%;
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 1080px) {
+    .top-right {
+    
+        width: 83.85%;
+    
+    }
+        
+}
+
+
+@media only screen and (max-width: 810px) {
+    #postilaatikko {
+    
+        padding-left: 25%;
+	
+    
+    }
+        
+}
+
+@media screen and (max-width: 812px) {
+    #postilaatikko {
+    
+        display: none;
+    
+    }
+        
+}
+
+/*-------------Valikot---------------------------------------------------------------*/
+
+
+
+
+@media only screen and (max-width: 1080px) {
+    #valikko1, #valikko2, #valikko3, #valikko4, #valikko5, #valikko6, #valikko7, #valikko8 {
+    
+        margin-left: 20%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 810px) {
+    #valikko1, #valikko2, #valikko3, #valikko4, #valikko5, #valikko6, #valikko7, #valikko8 {
+    
+        margin-left: 10%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 810px) {
+    #valikko1, #valikko2, #valikko3, #valikko4, #valikko5, #valikko6, #valikko7 {
+    
+	padding-top: 0.5em;
+        padding-bottom: 0.5em;
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 812px) {
+    #valikko1, #valikko2, #valikko4, #valikko5, #valikko6, #valikko7, #valikko8 {
+    
+        margin-left: 10%;
+	padding-top: 0.1em;
+        padding-bottom: 0.1em;
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 812px) {
+    #valikko3 {
+    
+        margin-left: 10%;
+	padding-top: 0.5em;
+        padding-bottom: 0em;
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    #valikko1, #valikko2, #valikko3, #valikko4, #valikko5, #valikko6, #valikko7, #valikko8 {
+    
+        margin-left: 10%;
+	padding-top: 0.2em;
+        padding-bottom: 0.2em;
+	
+    
+    }
+        
+}
+
+
+/*---------------------teksti-------------------------------*/
+
+
+.container #box2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 16.3%;
+    right: 0.6%;
+    font-size: 130%;
+    font-style: italic;
+    color: black;
+    background-color: rgb(206, 234, 252)
+
+
+
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .top-right {
+    
+        
+	font-size: 130%;
+	top: 75%;
+    
+    }
+        
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+    
+       
+	font-size: 200%;
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 812px) {
+    h1 {
+    
+        
+	font-size: 200%;
+	
+    
+    }
+        
+}
+
+@media only screen and (max-width: 810px) {
+    .top-right {
+    
+        width: 83.7%;
+	
+    
+    }
+        
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    .top-right {
+    
+        width: 83.7%;
+	
+    
+    }
+        
+}
+
+
+a:link {
+
+    color: Blue;
+    background-color: transparent;
+    text-decoration: none;
+  
+}
+  
+  a:visited {
+  
+    color: Blue;
+    background-color: transparent;
+    text-decoration: none;
+  
+}
+  
+  a:hover {
+  
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  
+}
+  
+  a:active {
+  
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  
+}
+ 
+#linkki {
+    color: Red;
+}

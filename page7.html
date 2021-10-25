@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+    <head>
+        <title>Sähköjelppari</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link href="page7.css" rel="StyleSheet">
+       
+    </head>
+    <body>
+        <form>
+            <h3 id="otsikko">Tarjouspyyntö</h3>
+        
+            <h4 id="yhteys">1. Yhteystiedot:</h4>
+            
+            <table id="tarjous">
+                    
+                <tr>
+                    <td>Etunimi:<input class="nimi1" name="etunimi" type="text" required></td>
+                    <td>Sukunimi:<input class="nimi2" name="sukunimi" type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Osoite:<input class="nimi3" name="osoite" type="text" required></td>
+                    <td>Puhelinnumero:<input class="nimi4" name="puhelinnumero" type="text" required></td>
+                    </tr>
+                    <tr>
+                    <td>Henkilötunnus:<input class="nimi5" name="henkilötunnus" type="text" maxlength="11" required></td>
+                    <td>Sähköposti:<input class="nimi6" name="sähköposti" type="text" required></td>
+                    </tr>
+            </table>
+            <h4 id="kohteen">2. Kohteentiedot:</h4>
+
+            <textarea id="tiedot" name="tiedot" rows="4" cols="50"></textarea>
+
+            <h4 id="mieluiten">Haluan tarjouksen mieluiten</h4>
+
+            <label id="sähköpos">Sähköpostilla</label><input id="in1" type="checkbox"><label id="posti">Postitse</label><input type="checkbox"> 
+            <br>
+            <button id="nappi" type="submit">Lähetä</button>
+
+        </form>
+     
+    </body>
+    
+</html>
