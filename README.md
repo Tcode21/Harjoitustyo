@@ -25,7 +25,7 @@ Sivusto testattu seuraavilla laitteilla, käyttöjärjestelmillä ja selaimilla:
     Google Chrome 
     Versio 95.0.4638.54
 
-Puhelin: Samsung Galaxy J5
+    Puhelin: Samsung Galaxy J5
 
 4. Mitä vaikeuksia kohtasit ja miten niistä selvisit?
 Sivujen leveyksien, härpäkkeiden kohdistaminen ja niiden näkyminen kaikilla laitteilla kohotti verenpainetta kiitettävästi.
