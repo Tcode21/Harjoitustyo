@@ -135,7 +135,7 @@ input:invalid {
 @media only screen and (max-width: 375px) {
     form {
     
-        width: 100%;
+        width: 50%;
     
     }
         
