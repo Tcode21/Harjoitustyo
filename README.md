@@ -26,6 +26,8 @@ Sivusto testattu seuraavilla laitteilla, käyttöjärjestelmillä ja selaimilla:
     Versio 95.0.4638.54
 
     Puhelin: Samsung Galaxy J5 
+    
+    Tablet tietokone: Lenovo
 
 4. Mitä vaikeuksia kohtasit ja miten niistä selvisit?
 Sivujen leveyksien, härpäkkeiden kohdistaminen ja niiden näkyminen kaikilla laitteilla kohotti verenpainetta kiitettävästi.
