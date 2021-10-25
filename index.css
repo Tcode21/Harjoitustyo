@@ -227,7 +227,7 @@ h1 {
 @media only screen and (max-width: 810px) {
     #valikko1, #valikko2, #valikko3, #valikko4, #valikko5, #valikko6, #valikko7 {
     
-	padding-top: 0.5em;
+	    padding-top: 0.5em;
         padding-bottom: 0.5em;
 	
     
@@ -239,7 +239,7 @@ h1 {
     #valikko1, #valikko2, #valikko4, #valikko5, #valikko6, #valikko7, #valikko8 {
     
         margin-left: 10%;
-	padding-top: 0.1em;
+	    padding-top: 0.1em;
         padding-bottom: 0.1em;
 	
     
@@ -251,7 +251,7 @@ h1 {
     #valikko3 {
     
         margin-left: 10%;
-	padding-top: 0.5em;
+	    padding-top: 0.5em;
         padding-bottom: 0em;
 	
     
@@ -263,7 +263,7 @@ h1 {
     #valikko1, #valikko2, #valikko3, #valikko4, #valikko5, #valikko6, #valikko7, #valikko8 {
     
         margin-left: 10%;
-	padding-top: 0.2em;
+	    padding-top: 0.2em;
         padding-bottom: 0.2em;
 	
     
@@ -297,10 +297,9 @@ h1 {
 
 @media only screen and (max-width: 375px) {
     .top-right {
-    
-        
-	font-size: 100%;
-	top: 85%;
+         
+	    font-size: 100%;
+	    top: 85%;
     
     }
         
@@ -308,10 +307,9 @@ h1 {
 
 @media only screen and (max-width: 412x) {
     .top-right {
-    
-   
-	font-size: 90%;
-	top: 85%;
+        
+        font-size: 90%;
+	    top: 85%;
     
     }
         
@@ -319,9 +317,8 @@ h1 {
 
 @media only screen and (max-width: 375px) {
     h1 {
-    
-       
-	font-size: 200%;
+        
+	    font-size: 200%;
 	
     
     }
@@ -331,8 +328,7 @@ h1 {
 @media only screen and (max-width: 812px) {
     h1 {
     
-        
-	font-size: 200%;
+        font-size: 200%;
 	
     
     }
