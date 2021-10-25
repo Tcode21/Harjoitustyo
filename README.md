@@ -9,7 +9,7 @@ Laadukasta palvelua ja tietoa.
 3. Kuvaa miten testasit sivuston toimivuuden?
 Sivusto testattu seuraavilla laitteilla, käyttöjärjestelmillä ja selaimilla:
 
-Kannettava tietokone: Mac book Pro 17
+  Kannettava tietokone: Mac book Pro 17
   macOS High Sierra 
   Safari 13.1.2
 
