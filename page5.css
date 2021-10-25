@@ -231,7 +231,7 @@ a:active {
 }
 
 @media only screen and (max-width: 360px) {
-    #table, td {
+    #table, td, th {
     
 	
        
