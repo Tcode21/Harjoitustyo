@@ -153,7 +153,7 @@ input:invalid {
 
 
 @media only screen and (max-width: 375px) {
-    form {
+    #tiedot {
     
         width: 90%;
     
