@@ -1,7 +1,7 @@
 # Harjoitustyö
 
 1. Kenelle sivusto on suunnattu?
-Sähköalan ammattilaisille ja sähköalasta kiinnostuneille.
+Pääasiassa asiakkaille jotka tarvitsevat sähköalan ammattilaista.
 
 2. Minkä hyödyn sivusto tuottaa kohderyhmälle?
 Laadukasta palvelua ja tietoa.
