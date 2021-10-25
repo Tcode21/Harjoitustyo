@@ -1,4 +1,4 @@
-# Harjoitustyo
+# Harjoitustyö
 
 1. Kenelle sivusto on suunnattu?
 Sähköalan ammattilaisille ja sähköalasta kiinnostuneille.
